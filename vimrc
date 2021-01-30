@@ -1,5 +1,5 @@
 " ~/.vim/vimrc
-" default ~/.vimrc must include :runtime to proccess the current file
+" ~/.vimrc must include :runtime to proccess the current file
 
 set autoindent
 set expandtab
@@ -12,17 +12,15 @@ filetype plugin indent on
 set background=dark
 colorscheme ron
 syntax on
-set listchars=tab:>-,space:*    " Show tabs and spaces after :set list
-set ruler                       " Show position of cursor in the right corner
-set formatoptions+=tc           " Wrap text and comments with custom `tw`
-set textwidth=79
+set listchars=tab:>-,space:*    " Now :set list showes witespace
+set ruler                       " Show line and column number
+set formatoptions+=tc           " Wrap text and comments with 
+set textwidth=69
 
 " SEARCH
 set hlsearch                    " Higlight search results
 set incsearch                   " Display the string while typing
-
 silent! helptags ALL            " Load help files for all plugins
-
 
 " SHORTKEY
 tnoremap <Esc> <C-\><C-n>       " Exit terminal mode
