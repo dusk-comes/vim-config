@@ -14,6 +14,8 @@ colorscheme ron
 syntax on
 set listchars=tab:>-,space:*    " Show tabs and spaces after :set list
 set ruler                       " Show position of cursor in the right corner
+set formatoptions+=tc           " Wrap text and comments with custom `tw`
+set textwidth=79
 
 " SEARCH
 set hlsearch                    " Higlight search results
