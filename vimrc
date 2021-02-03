@@ -15,7 +15,7 @@ syntax on
 set listchars=tab:>-,space:*    " Now :set list showes witespace
 set ruler                       " Show line and column number
 set formatoptions+=tc           " Wrap text and comments with 
-set textwidth=69
+set textwidth=68
 
 " SEARCH
 set hlsearch                    " Higlight search results
