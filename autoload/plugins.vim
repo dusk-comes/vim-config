@@ -1,16 +1,20 @@
 "~/.vim/autoload/plugins.vim
 
 let s:links = {
-            \ 'nerdtree': 'https://github.com/preservim/nerdtree.git',
-            \ 'xmledit': 'https://github.com/sukima/xmledit.git',
-            \ 'cpp-enhanced-highlighting': 'https://github.com/octol/vim-cpp-enhanced-highlight.git'
+            \ 'plugins/opt/nerdtree': 'https://github.com/preservim/nerdtree.git',
+            \ 'plugins/opt/xmledit': 'https://github.com/sukima/xmledit.git',
+            \ 'plugins/opt/cpp-hgl': 'https://github.com/octol/vim-cpp-enhanced-highlight.git',
+            \ 'lsp/start/vim-lsp-settings' : 'https://github.com/mattn/vim-lsp-settings'
+            \ 'lsp/start/vim-lsp' : 'https://github.com/prabirshrestha/vim-lsp'
+            \ 'lsp/start/asynccomplete' : 'https://github.com/prabirshrestha/asyncomplete.vim'
+            \ 'lsp/start/asynccomplete-lsp' : 'https://github.com/prabirshrestha/asyncomplete-lsp.vim'
             \ }
-let s:srch_dir = '~/.vim/pack/plugins/'
+let s:srch_dir = '~/.vim/pack/'
 
 function! g:plugins#Download()
     for l:plugin in keys(s:links)
-        if empty(glob(s:srch_dir . "*/" . l:plugin))
-            let l:target_dir = s:srch_dir . 'opt/' . l:plugin
+        if empty(glob(s:srch_dir . l:plugin))
+            let l:target_dir = s:srch_dir . l:plugin
             silent exe '!git clone -- ' . s:links[l:plugin]
                                         \ l:target_dir
         endif
