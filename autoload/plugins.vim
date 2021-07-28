@@ -2,7 +2,7 @@
 
 let s:links = {
             \ 'plugins/opt/nerdtree': 'https://github.com/preservim/nerdtree.git',
-            \ 'plugins/opt/xmledit': 'https://github.com/sukima/xmledit.git',
+            \ 'plugins/start/xmledit': 'https://github.com/sukima/xmledit.git',
             \ 'plugins/opt/cpp-hgl': 'https://github.com/octol/vim-cpp-enhanced-highlight.git',
             \ 'lsp/start/vim-lsp-settings' : 'https://github.com/mattn/vim-lsp-settings'
             \ 'lsp/start/vim-lsp' : 'https://github.com/prabirshrestha/vim-lsp'
