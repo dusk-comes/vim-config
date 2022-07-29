@@ -1,3 +1,3 @@
 " ~/.vim/after/ftplugin/c.vim
 
-set formatoptions+=t
+" set formatoptions+=t
