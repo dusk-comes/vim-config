@@ -9,8 +9,8 @@ set backspace=indent,eol,start
 filetype plugin indent on
 
 " APPERANCE
-set background=dark
-colorscheme torte
+set termguicolors
+colorscheme darkblue
 syntax on
 set listchars=tab:>-,space:*    " Now :set list showes witespace
 set ruler                       " Show line and column number
