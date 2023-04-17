@@ -10,7 +10,7 @@ filetype plugin indent on
 
 " APPERANCE
 set termguicolors
-colorscheme darkblue
+colorscheme murphy
 syntax on
 set listchars=tab:>-,space:*    " Now :set list showes witespace
 set ruler                       " Show line and column number
@@ -28,6 +28,12 @@ tnoremap <Esc> <C-\><C-n>       " Exit terminal mode
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 inoremap <expr> <cr>    pumvisible() ? asyncomplete#close_popup() : "\<cr>"
+
+" AUTOCOMMANDS
+au BufNewFile,BufRead *.tpp, *.ipp set filetype=cpp
+au BufNewFile,BufRead *CMakeLists.txt
+                                    \ set textwidth=0 |
+                                    \ set wrapmargin=0
 
 " LSP
 let g:lsp_diagnostics_echo_cursor = 1
