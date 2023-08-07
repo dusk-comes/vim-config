@@ -14,12 +14,15 @@ let s:srch_dir = '~/.vim/pack/'
 
 function! g:plugins#Download()
     for l:plugin in keys(s:links)
+        system('mkdir -p', s:srch_dir . l:plugin)
+
         if empty(glob(s:srch_dir . l:plugin))
             let l:target_dir = s:srch_dir . l:plugin
             silent exe '!git clone -- ' . s:links[l:plugin]
                                         \ l:target_dir
         endif
     endfor
+
     source $MYVIMRC
     echo "All plugins have been installed"
 endfunction
