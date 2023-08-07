@@ -4,11 +4,11 @@ let s:links = {
             \ 'plugins/opt/nerdtree': 'https://github.com/preservim/nerdtree.git',
             \ 'plugins/start/xmledit': 'https://github.com/sukima/xmledit.git',
             \ 'plugins/opt/cpp-hgl': 'https://github.com/octol/vim-cpp-enhanced-highlight.git',
-            \ 'plugins/opt/syntastic' : 'https://github.com/vim-syntastic/syntastic.git'
-            \ 'lsp/start/vim-lsp-settings' : 'https://github.com/mattn/vim-lsp-settings',
-            \ 'lsp/start/vim-lsp' : 'https://github.com/prabirshrestha/vim-lsp',
-            \ 'lsp/start/asynccomplete' : 'https://github.com/prabirshrestha/asyncomplete.vim',
-            \ 'lsp/start/asynccomplete-lsp' : 'https://github.com/prabirshrestha/asyncomplete-lsp.vim'
+            \ 'plugins/opt/syntastic': 'https://github.com/vim-syntastic/syntastic.git',
+            \ 'lsp/start/vim-lsp-settings': 'https://github.com/mattn/vim-lsp-settings',
+            \ 'lsp/start/vim-lsp': 'https://github.com/prabirshrestha/vim-lsp',
+            \ 'lsp/start/asynccomplete': 'https://github.com/prabirshrestha/asyncomplete.vim',
+            \ 'lsp/start/asynccomplete-lsp': 'https://github.com/prabirshrestha/asyncomplete-lsp.vim'
             \ }
 let s:srch_dir = '~/.vim/pack/'
 
