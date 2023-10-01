@@ -20,3 +20,6 @@ if s:syntastic_enabled
     let g:syntastic_cpp_clang_tidy_args = "-p ."
     let g:syntastic_cpp_clang_tidy_post_args = "-checks=-*,readability-*"
 endif
+" END
+
+set foldmethod=syntax
