@@ -28,6 +28,11 @@ tnoremap <Esc> <C-\><C-n>       " Exit terminal mode
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 inoremap <expr> <cr>    pumvisible() ? asyncomplete#close_popup() : "\<cr>"
+"   NERDTree
+nnoremap <leader>tt :NERDTreeToggle<cr>
+"   LSP
+nnoremap <leader>ld :LspDeclaration<cr>
+nnoremap <leader>li :LspImplementation<cr>
 
 " AUTOCOMMANDS
 au BufNewFile,BufRead *.tpp, *.ipp set filetype=cpp
