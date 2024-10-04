@@ -1,5 +1,5 @@
 " ~/.vim/vimrc
-" ~/.vimrc must include :runtime to proccess the current file
+" ~/vimrc <-- runtime vimrc " all settings are under ~/.vim/vimrc
 
 set autoindent
 set expandtab
