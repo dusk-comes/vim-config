@@ -8,6 +8,14 @@ set shiftwidth=4
 set backspace=indent,eol,start
 filetype plugin indent on
 
+" LANGUAGE 
+set encoding=utf-8
+set keymap=russian-jcukenwin " (switch between En-Ru Ctrl+^)
+set iminsert=0
+set imsearch=0
+highlight lCursor guifg=NONE guibg=Cyan
+set spell spelllang=ru_yo,en_us " to download dictionaries type in some session :setlocal spell spelllang=ru_yo,en_us
+
 " APPERANCE
 set termguicolors
 colorscheme murphy

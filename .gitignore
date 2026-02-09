@@ -1,2 +1,5 @@
 pack/*/start/*
 pack/*/opt/*
+spell/**
+*.swp
+.netrwhist
