@@ -1,11 +1,11 @@
 "~/.vim/autoload/plugins.vim
 
 let s:links = {
-            \ 'plugins/opt/nerdtree': 'https://github.com/preservim/nerdtree.git',
-            \ 'plugins/start/xmledit': 'https://github.com/sukima/xmledit.git',
-            \ 'plugins/start/glowing-vim-markdown-preview': 'https://github.com/drewipson/glowing-vim-markdown-preview.git',
-            \ 'plugins/opt/cpp-hgl': 'https://github.com/octol/vim-cpp-enhanced-highlight.git',
-            \ 'plugins/opt/syntastic': 'https://github.com/vim-syntastic/syntastic.git',
+            \ 'misc/opt/nerdtree': 'https://github.com/preservim/nerdtree.git',
+            \ 'misc/start/xmledit': 'https://github.com/sukima/xmledit.git',
+            \ 'misc/start/glowing-vim-markdown-preview': 'https://github.com/drewipson/glowing-vim-markdown-preview.git',
+            \ 'misc/opt/cpp-hgl': 'https://github.com/octol/vim-cpp-enhanced-highlight.git',
+            \ 'misc/opt/syntastic': 'https://github.com/vim-syntastic/syntastic.git',
             \ 'lsp/start/vim-lsp-settings': 'https://github.com/mattn/vim-lsp-settings',
             \ 'lsp/start/vim-lsp': 'https://github.com/prabirshrestha/vim-lsp',
             \ 'lsp/start/asynccomplete': 'https://github.com/prabirshrestha/asyncomplete.vim',
