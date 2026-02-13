@@ -23,7 +23,7 @@ syntax on
 set listchars=tab:>-,space:*    " Now :set list showes witespace
 set ruler                       " Show line and column number
 set formatoptions+=tc           " Wrap text and comments with 
-set textwidth=68
+set textwidth=80
 autocmd FileType c,cpp set relativenumber number
 
 " SEARCH
