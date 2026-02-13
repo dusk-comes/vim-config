@@ -20,3 +20,7 @@ endfunction
 function! g:macros#PrettifyJson()
     %!jq .
 endfunction
+
+function! g:macros#JsonOneLine()
+    %!jq -c .
+endfunction
